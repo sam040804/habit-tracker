@@ -1,0 +1,14 @@
+[2025-09-03T14:34:43.452Z] SUCCESS: Server running on http://localhost:5050
+[2025-09-03T14:34:51.445Z] SUCCESS: Server running on http://localhost:5050
+[2025-09-03T14:35:10.952Z] SUCCESS: Server running on http://localhost:5050
+[2025-09-03T14:35:32.507Z] SUCCESS: Server running on http://localhost:5050
+[2025-09-03T14:40:03.135Z] SUCCESS: Server running on http://localhost:5050
+[2025-09-03T14:40:03.141Z] SUCCESS: MongoDB connected
+[2025-09-03T14:40:54.958Z] SUCCESS: Server running on http://localhost:5050
+[2025-09-03T14:40:54.964Z] SUCCESS: MongoDB connected
+[2025-09-03T14:41:29.686Z] SUCCESS: New habit inserted: Drink Water
+[2025-09-03T14:41:36.033Z] INFO: Fetched habits: 4
+[2025-09-03T14:41:43.014Z] ERROR: Error updating progress: CastError: Cast to ObjectId failed for value "HABIT_ID" (type string) at path "_id" for model "Habit"
+[2025-09-03T14:41:51.048Z] ERROR: Error getting streak: CastError: Cast to ObjectId failed for value "HABIT_ID" (type string) at path "_id" for model "Habit"
+[2025-09-03T14:51:32.422Z] SUCCESS: Server running on http://localhost:5050
+[2025-09-03T14:51:32.427Z] SUCCESS: MongoDB connected

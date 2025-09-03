@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Habit Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <!-- Header -->
+    <div class="app__header">
+      <h1 class="title">Habit Tracker</h1>
+      <button id="toggleDark" class="btn btn--ghost">🌙 Dark Mode</button>
+    </div>
+
+    <!-- Dashboard -->
+    <div class="card card--dashboard">
+      <div class="card__header">
+        <h2 class="card__title">Dashboard</h2>
+      </div>
+      <div id="dashboardStats" class="dashboard__metrics">0 / 0 habits completed today</div>
+      <div class="progress">
+        <div id="progressFill" class="progress__fill"></div>
+      </div>
+    </div>
+
+    <!-- Add Habit -->
+    <div class="card">
+      <div class="card__header">
+        <h2 class="card__title">Add Habit</h2>
+      </div>
+      <div class="add">
+        <input id="habitInput" type="text" placeholder="Enter a new habit..." class="input" />
+        <button onclick="addHabit()" class="btn btn--primary">Add</button>
+      </div>
+    </div>
+
+    <!-- Habit List -->
+    <div class="card">
+      <div class="card__header">
+        <h2 class="card__title">My Habits</h2>
+      </div>
+      <ul id="habitList" class="list"></ul>
+      <div id="emptyState" class="empty hidden">
+        <div class="empty__icon">✨</div>
+        <div>No habits yet. Add your first one!</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
